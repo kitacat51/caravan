@@ -26,6 +26,12 @@ header{
   margin-left: 20px;
 }
 
+.social{
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
 header .heading{
   font-size: 32px;
 }
@@ -219,4 +225,26 @@ footer{
 
 .footer-text{
   color: #fff;
+}
+
+.social i{
+  color: black;
+}
+
+@media screen and (max-width:1024px){
+  .social i {
+    color: green;
+  }
+}
+
+@media screen and (max-width:768px){
+  .social i {
+    color: red;
+  }
+}
+
+@media screen and (max-width:425px){
+  .social i {
+    color: blue;
+  }
 }
