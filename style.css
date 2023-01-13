@@ -227,24 +227,21 @@ footer{
   color: #fff;
 }
 
-.social i{
-  color: black;
-}
-
-@media screen and (max-width:1024px){
-  .social i {
-    color: green;
-  }
-}
-
-@media screen and (max-width:768px){
-  .social i {
-    color: red;
-  }
-}
 
 @media screen and (max-width:425px){
-  .social i {
-    color: blue;
+  header{
+    width: 100%;
   }
+  
+  .nav-list{
+    width:100%;
+    }
+  .nav-list-item{
+    width: 100%;
+  }
+  
+  main{
+    width: 100%;
+  }
+  
 }
